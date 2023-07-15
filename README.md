@@ -21,20 +21,20 @@
 	1. All message should include  `source` and `destination` (necessary : `chatgpt`) keys like this :
 		```json
 		{
-			'source' : 'name of the sender of the message',
-			destination : 'chatgpt'
+			"source" : "name of the sender of the message",
+			"destination" : "chatgpt"
 		}
 		```
 	2. To ask chatgpt: 
 		```json
 		{
-			source : "name of the sender of the message",
-			destination : "chatGPT",
-			conversation : {
-				question : 'your question',
-				conversationId : 'conversation id or undefined',
-				parentMessageId : 'parentMessage id or undefined',
-				deleteAfterFinished : 'Boolean : either true or false'
+			"source" : "name of the sender of the message",
+			"destination" : "chatGPT",
+			"conversation" : {
+				"question" : "your question",
+				"conversationId" : "conversation id or undefined",
+				"parentMessageId" : "parentMessage id or undefined",
+				deleteAfterFinished : "Boolean : either true or false"
 			}
 		}
 		```
@@ -60,17 +60,17 @@
  - The form the answer is the following : 
 	```json
 	{
-		answer : {
-		  conversationData : {
-		  text: "the part of the answers",
-		  messageId: "the message id",
-		  conversationId: "the conversation id"
+		"answer" : {
+		  "conversationData" : {
+		  "text" : "the part of the answers",
+		  "messageId": "the message id",
+		  "conversationId": "the conversation id"
 		  }
 		},
-	    error : '',
-	    done : "either true or false",
-	    source : "chatGPT",
-	    destination : "The sender of the question"
+	    "error" : "",
+	    "done" : "either true or false",
+	    "source" : "chatGPT",
+	    "destination" : "The sender of the question"
 	
 	}
 	```
