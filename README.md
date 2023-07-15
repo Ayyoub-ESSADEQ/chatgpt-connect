@@ -47,11 +47,11 @@
 	4. To assign a title to the a conversation :
 		```json
 		{
-			source : "name of the sender of the message",
-			destination : "chatGPT",
-			conversation : {
-				conversationId : 'should necessary include a valid conversation id',
-				title : 'The title you want to assign'
+			"source": "name of the sender of the message",
+			"destination" : "chatGPT",
+			"conversation" : {
+				"conversationId" : "should necessary include a valid conversation id",
+				"title" : "The title you want to assign"
 			}
 		}
 		```
