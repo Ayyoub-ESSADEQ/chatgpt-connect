@@ -21,7 +21,7 @@
 	1. All message should include  `source` and `destination` (necessary : `chatgpt`) keys like this :
 		```json
 		{
-			source : 'name of the sender of the message',
+			'source' : 'name of the sender of the message',
 			destination : 'chatgpt'
 		}
 		```
