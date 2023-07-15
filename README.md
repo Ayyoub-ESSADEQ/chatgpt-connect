@@ -12,7 +12,7 @@
 # In details
 - The way chatgpt-connect work is by connecting to a local websocket server. The websocket server should manage the way chatgpt-connect  and your application communiate. For now, the server should be starting on the port 1956 (basically : ws://localhost:1956).
 
-![websocket server](./websocket%20server.png)
+![websocket server](./screenshots/websocket%20server.png)
 
 - When the server is up running, the chrome extension will connect to the server and then will immediately send a message indicating that it is chatgpt, the message looks like `{clientID : "chatgpt"}` .Then, it's up to the logic of websocket server to manage the exchange of message between applications and chatgpt-connect.
 
@@ -217,7 +217,10 @@ export default runServer;
 	3. Make sure to experiment with the extension.
 	4. The important thing is to enjoy what you do 😊.
 
-# Limitations :
+# In action
+![websocket server](./screenshots/chatgpt-connect.gif)
+
+# Limitations 
 - You could don't stop generating an answer.
 - You couldn't ask chatgpt to continue answering an incomplete answer (appears when the answer of chatgpt is too long).
 - You couldn't ask chatgpt for multiple questions at the same time.
