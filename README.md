@@ -60,17 +60,17 @@
  - The form the answer is the following : 
 	```json
 	{
-		"answer" : {
-			  "conversationData" : {
-			  "text" : "the part of the answers",
-			  "messageId": "the message id",
-			  "conversationId": "the conversation id"
-		  }
-		},
-	    "error" : "",
-	    "done" : "either true or false",
-	    "source" : "chatGPT",
-	    "destination" : "The sender of the question"
+	"answer" : {
+	  "conversationData" : {
+		  "text" : "the part of the answers",
+		  "messageId": "the message id",
+		  "conversationId": "the conversation id"
+		}
+	},
+	"error" : "",
+	"done" : "either true or false",
+	"source" : "chatGPT",
+	"destination" : "The sender of the question"
 	
 	}
 	```
