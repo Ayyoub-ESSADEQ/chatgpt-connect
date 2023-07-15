@@ -12,7 +12,7 @@
 # In details
 - The way chatgpt-connect work is by connecting to a local websocket server. The websocket server should manage the way chatgpt-connect  and your application communiate. For now, the server should be starting on the port 1956 (basically : ws://localhost:1956).
 
-![[Pasted image 20230714102717.png]]
+![websocket server](./websocket%20server.png)
 
 - When the server is up running, the chrome extension will connect to the server and then will immediately send a message indicating that it is chatgpt, the message looks like `{clientID : "chatgpt"}` .Then, it's up to the logic of websocket server to manage the exchange of message between applications and chatgpt-connect.
 
