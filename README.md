@@ -34,7 +34,7 @@
 				"question" : "your question",
 				"conversationId" : "conversation id or undefined",
 				"parentMessageId" : "parentMessage id or undefined",
-				deleteAfterFinished : "Boolean : either true or false"
+				"deleteAfterFinished" : "Boolean : either true or false"
 			}
 		}
 		```
@@ -61,10 +61,10 @@
 	```json
 	{
 		"answer" : {
-		  "conversationData" : {
-		  "text" : "the part of the answers",
-		  "messageId": "the message id",
-		  "conversationId": "the conversation id"
+			  "conversationData" : {
+			  "text" : "the part of the answers",
+			  "messageId": "the message id",
+			  "conversationId": "the conversation id"
 		  }
 		},
 	    "error" : "",
