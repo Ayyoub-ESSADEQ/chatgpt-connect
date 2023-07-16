@@ -215,6 +215,7 @@ export default runServer;
 	1. Make sure that the server is running
 	2. Make sure that chatgpt-connect is connected to the server (the logo will be green if connected else it will be white).
 	3. Make sure to experiment with the extension.
+	5. The first two minute after the startup of google chrome, **chatgpt-connect** will try to connect automatically to the server.
 	4. The important thing is to enjoy what you do 😊.
 
 # In action
